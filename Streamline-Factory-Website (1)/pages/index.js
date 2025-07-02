@@ -1,4 +1,3 @@
-// pages/index.js
 
 import React from 'react';
 import Head from 'next/head';
@@ -9,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Streamline Factory</title>
         <meta name="description" content="Smarter SaaS tools for insurance, construction, service, and automotive industries." />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
       </Head>
 
       <header className="bg-blue-900 text-white p-6 flex justify-between items-center">
@@ -36,4 +35,3 @@ export default function Home() {
     </div>
   );
 }
-
